@@ -41,7 +41,7 @@ docker compose up --build
 ### 3단계 — 백엔드 서버 실행 (터미널 1)
 
 ```bash
-cd backend/app
+cd backend
 uvicorn app.main:app --reload
 ```
 
