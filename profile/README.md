@@ -42,7 +42,7 @@ docker compose up --build
 
 ```bash
 cd backend/app
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 ### 4단계 — ngrok 터널 연결 (터미널 2)
